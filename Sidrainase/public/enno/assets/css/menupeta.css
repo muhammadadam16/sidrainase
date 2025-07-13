@@ -1,0 +1,147 @@
+#map {
+    height: calc(100vh - 80px);
+    width: 100%;
+    position: relative;
+}
+
+#sidebar-layer {
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    z-index: 1000;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#custom-zoom {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    z-index: 1000;
+}
+
+#custom-zoom button {
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+    transition: all 0.2s ease;
+}
+
+#custom-zoom button:hover {
+    background: #f8f9fa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.info {
+    padding: 0;
+    font: 13px/15px Arial, Helvetica, sans-serif;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info h4 {
+    margin: 0;
+    padding: 10px;
+    color: #2c3e50;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+    background: #f8f9fa;
+    border-radius: 8px 8px 0 0;
+}
+
+.info table {
+    margin: 0;
+    width: 100%;
+}
+
+.info table td {
+    padding: 6px 10px;
+    border: none;
+    font-size: 12px;
+}
+
+.info table tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+.info table td:first-child {
+    color: #6c757d;
+    font-weight: 500;
+    width: 40%;
+}
+
+.info table td:last-child {
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+/* Ubah ukuran popup agar lebih kecil */
+.leaflet-popup-content {
+    margin: 0;
+    min-width: 220px;
+    max-width: 260px;
+    font-size: 13px;
+}
+
+/* Tombol dalam popup */
+.leaflet-popup-content .btn {
+    margin: 0;
+    border-radius: 0;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    transition: all 0.2s ease;
+}
+
+.leaflet-popup-content .btn-primary {
+    background: #3498db;
+    border-color: #3498db;
+}
+
+.leaflet-popup-content .btn-primary:hover {
+    background: #2980b9;
+    border-color: #2980b9;
+}
+
+.leaflet-popup-content .btn-secondary {
+    background: #95a5a6;
+    border-color: #95a5a6;
+}
+
+.leaflet-popup-content .btn-secondary:hover {
+    background: #7f8c8d;
+    border-color: #7f8c8d;
+}
+
+.leaflet-popup-content .mt-2 {
+    margin: 0 !important;
+    border-top: 1px solid #eee;
+}
+
+.leaflet-popup-content .mt-2 .btn:first-child {
+    border-radius: 0 0 0 8px;
+}
+
+.leaflet-popup-content .mt-2 .btn:last-child {
+    border-radius: 0 0 8px 0;
+}
+
+.label-hover-tooltip {
+    font-size: 11px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 2px 5px;
+    border-radius: 4px;
+}

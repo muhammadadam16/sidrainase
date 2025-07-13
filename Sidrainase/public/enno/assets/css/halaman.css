@@ -1,0 +1,36 @@
+#about {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.card-about {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.card-about h3 {
+    color: #000;
+    font-size: 18px;
+}
+
+.card-about h4 {
+    color: #000;
+    font-size: 20px;
+}
+
+.card-about p {
+    color: #000;
+    font-size: 15px;
+}
